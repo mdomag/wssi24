@@ -17,11 +17,11 @@ Zadanie 2
 
 Zadanie 3
 
-Odpowiadanie na proste pytania klientów w zarówno internetowej, jak i telefonicznej infolinii jest obecnie skutecznie imitowane. Wiele firm wprowadza automatyzację obsługi klientów właśnie w takiej formie. Częściej stosowana jest forma w internetowej infolinii, ale przykładem wykorzystującym infolinię telefoniczną jest, np. asystent głosowy Max należący do firmy Orange. 	Lista sztucznych systemów imitujących rozmowy towarzyskie jest długa, ich skuteczność jednak często pozostawia wiele do życzenia. Przystosowują się one do użytkownika, myślę więc, że można je naprowadzić na dyskusje polityczne i naukowe, jednak wartość merytoryczna takiej wymiany „opinii” nie jest zbyt wysoka. 
+Odpowiadanie na proste pytania klientów w zarówno internetowej, jak i telefonicznej infolinii jest obecnie skutecznie imitowane. Wiele firm wprowadza automatyzację obsługi klientów właśnie w takiej formie. Częściej stosowana jest forma w internetowej infolinii, ale przykładem wykorzystującym infolinię telefoniczną jest, np. asystent głosowy Max należący do firmy Orange. Lista sztucznych systemów imitujących rozmowy towarzyskie jest długa, ich skuteczność jednak często pozostawia wiele do życzenia. Przystosowują się one do użytkownika, myślę więc, że można je naprowadzić na dyskusje polityczne i naukowe, jednak wartość merytoryczna takiej wymiany „opinii” nie jest zbyt wysoka. 
 
 Zadanie 4
 
-1) Bot udający człowieka przygotowany jest do odpowiedzi na wszelakie pytania, jest próbą symulacji rozmowy towarzyskiej, gdzie bot „asystent, służący” przygotowany jest na odpowiadania na pytania tyczące się tylko ściśle określonego tematu, jego zadaniem jest pomoc w sprawniejszym uzyskaniu informacji w danym zakresie.
+1) Bot udający człowieka przygotowany jest do odpowiedzi na wszelakie pytania, jest próbą symulacji rozmowy towarzyskiej, gdzie bot asystent przygotowany jest na odpowiadania na pytania tyczące się tylko ściśle określonego tematu, jego zadaniem jest pomoc w sprawniejszym uzyskaniu informacji w danym zakresie.
 
 2) Wykorzystałam do tego zadania ChatGPT (chatbot do wszelakich celów) i Phind (chatbot zaprojektowany do pomocy programistom).
 
