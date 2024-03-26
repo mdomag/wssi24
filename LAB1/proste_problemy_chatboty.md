@@ -25,23 +25,17 @@ Zadanie 4
 
 2) Wykorzystałam do tego zadania ChatGPT (chatbot do wszelakich celów) i Phind (chatbot zaprojektowany do pomocy programistom).
 
-3)  ChatGPT generuje od razu krótkie żarty, łatwo dostosowuje żarty do podanych kategorii. Phind nie rozumie od razu polecenia, ale po dalszym nakierowaniu udało mu się wyprodukować kilka absurdalnie długich żartów na temat informatyków*.
-   
+3) ChatGPT generuje od razu krótkie żarty, łatwo dostosowuje żarty do podanych kategorii. Phind nie rozumie od razu polecenia, ale po dalszym nakierowaniu udało mu się wyprodukować kilka absurdalnie długich żartów na temat informatyków*.   
 ChatGPT jest w stanie przytoczyć moje wcześniejsze zapytania oraz cytaty sławnych osób. Phind nie potrafi przytoczyć mojego zapytania, jedynie je opisać, nie przechowuje on historii rozmów. Nie ma problemu z przytaczaniem cytatów znanych osób. 
-
 ChatGPT trzyma się słów kluczowych, szczególnie, gdy zadaje mu się pytania pozornie wymagające wyobraźni, podobnie Phind.
-
 ChatGPT odpowiada na wszystkie proste pytania po kolei. Tak samo Phind. Nie trudno jednak wpaść w błędne koło z chatbotem, często po informacji, że jego odpowiedź jest błędna, bot przeprasza ale generuje to samo rozwiązanie. 
-
 Obydwa chatboty radzą sobie zazwyczaj dobrze przy nawiązywaniu do moich poprzednich zapytań, wnioskują one bowiem na podstawie kontekstu rozmowy. Potrafią one czasem zbytnio trzymać się kontekstu i proponować jako poprawne rozwiązanie podane przeze mnie wcześniej błędne odpowiedzi.
-
 Obydwa chatboty wymijają się od odpowiedzi przy niebezpiecznych tematach. Dają sobie radę z częstą zmianą tematu rozmowy i nie mają za dużych problemów z utrzymywaniem wątków. 
-
 Wybrane przeze mnie chatboty są dość podobne. Widać jednak, że Phind został stworzony jako asystent w konkretnej dziedzinie, jest ograniczony przy wychodzeniu poza temat programowania. ChatGpt ma szersze zastosowania, spełnia się więc lepiej w rozmowie. 
 
-5)  Wymiana wypowiedzi między botami zazwyczaj kończy się co raz to milszym proponowaniem pomocy. ChatGPT poinformowany o tym, że będzie „rozmawiał” z Phindem jedynie zadaje mu pytanie w obszarze działania Phinda – informatycznym i dziękuje za odpowiedzi. 
+4)  Wymiana wypowiedzi między botami zazwyczaj kończy się co raz to milszym proponowaniem pomocy. ChatGPT poinformowany o tym, że będzie „rozmawiał” z Phindem jedynie zadaje mu pytanie w obszarze działania Phinda – informatycznym i dziękuje za odpowiedzi. 
 
-6) Ciężko było mi zdenerwować któregokolwiek bota, prędzej to one zdenerwowały mnie (swoją inkompetencją). Zostały one stworzone jako produkty komercyjne, nic dziwnego więc, że zostały one ograniczone pod tym względem – przy obrażeniu bota, ten jedynie przeprasza i pyta jak inaczej może pomóc.
+5) Ciężko było mi zdenerwować któregokolwiek bota, prędzej to one zdenerwowały mnie (swoją inkompetencją). Zostały one stworzone jako produkty komercyjne, nic dziwnego więc, że zostały one ograniczone pod tym względem – przy obrażeniu bota, ten jedynie przeprasza i pyta jak inaczej może pomóc.
 
 *Treść żartu:
 ![Zrzut ekranu 2024-03-26 201835](https://github.com/mdomag/wssi24/assets/126866195/6113ca1e-ee28-453b-a178-4430329dff2c)
