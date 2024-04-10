@@ -39,12 +39,12 @@ obywatel(markus, pompeje).
 
 %sposob I
 
-zyje(X, 80) :- (obywatel(X, pompeje), urodzil(X, Z), Z>=80); (\+obywatel(X, pompeje)).
+zyje(X, Y) :- Y>80, ((obywatel(X, pompeje), urodzil(X, Z), Z>=80); (\+obywatel(X, pompeje))).
 
 %zyje(markus, 80) == false
 
 %sposob II
-%zyje(X, Y) :- urodzil(X, Z), Z > Y-150.
+zyje(X, Y) :- urodzil(X, Z), Z > Y-150.
 
 %zyje(markus, 2021) == false
 
