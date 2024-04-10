@@ -2,10 +2,18 @@
 
 %1
 kobieta(X) :-	
+    osoba(x),
     \+mezczyzna(X).
 
 kobieta(anna).
 kobieta(baska).
+kobieta(kasia).
+osoba(kasia).
+osoba(anna).
+osoba(baska).
+osoba(daniel).
+osoba(pawel).
+osoba(piotr).
 rodzic(kasia, basia).
 rodzic(stasia, kasia).
 rodzic(daniel, anna).
@@ -17,9 +25,8 @@ mezczyzna(daniel).
 mezczyzna(pawel).
 mezczyzna(piotr).
 lubi(kasia, anna).
-lubi(kasia, daniel).
-
-
+lubi(anna, kasia).
+lubi(kasia, baska).
 
 %2
 ojciec(X, Y) :-
@@ -130,24 +137,29 @@ g(X, Y) :-
 
 %predykaty: lubi(X, Y)
 przyjazn(X, Y) :-
+    osoba(X), osoba(Y),
     lubi(X, Y),
     lubi(Y, X).
 
 nieprzyjazn(X, Y) :-
+    osoba(X), osoba(Y),
     \+(lubi(X, Y)),
     \+(lubi(Y, X)).
 
 niby_przyjazn(X, Y) :-
+    osoba(X), osoba(Y),
     (lubi(X, Y), \+lubi(Y, X));
     (lubi(Y, X), \+lubi(X, Y)).
 
 loves(X, Y) :-
+    osoba(X), osoba(Y),
     lubi(X, Y),
     (kobieta(Y) -> (\+((kobieta(Z), lubi(X, Z), Z \= Y)));
 	mezczyzna(Y) -> (\+((mezczyzna(Z), lubi(X, Z), Z \= Y)))).
 
 %związek
 true_love(X, Y) :-
+    osoba(X), osoba(Y),
     loves(X, Y),
     loves(Y, X).
     
