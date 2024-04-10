@@ -1,6 +1,7 @@
 :- discontiguous pozywienie/1.
 :- discontiguous zyje/2.
 :- discontiguous obywatel/2.
+
 %zadanie 1
 
 czlowiek(markus).
