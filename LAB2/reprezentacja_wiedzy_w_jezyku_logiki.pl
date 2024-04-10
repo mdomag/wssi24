@@ -28,7 +28,7 @@ je(adam, orzeszki).
 je(basia, X) :- je(adam, X).
 
 % lubi(jan, orzeszki) == true
-% 
+
 %je(basia, X).
 %X = orzeszki
 
