@@ -1,7 +1,7 @@
-%predykaty: mezczyzna(X), rodzic(X,Y)
+%predykaty: mezczyzna(X), rodzic(X,Y), osoba(x)
 
 %1
-kobieta(X) :-
+kobieta(X) :-	
     \+mezczyzna(X).
 
 kobieta(anna).
