@@ -1,7 +1,6 @@
 :- discontiguous pozywienie/1.
 :- discontiguous zyje/2.
 :- discontiguous obywatel/2.
-
 %zadanie 1
 
 czlowiek(markus).
@@ -38,14 +37,21 @@ je(basia, X) :- je(adam, X).
 urodzil(markus, 40).
 obywatel(markus, pompeje).
 
+%sposob I + II
+
+zyje(X, Y) :- 
+    (Y>=80,(obywatel(X, pompeje), urodzil(X, Z), Z>=80, Z > Y-150, Y >= Z));   
+    (urodzil(X, Z), Z > Y-150, Y >= Z).
+
 %sposob I
 
-zyje(X, Y) :- Y>80, ((obywatel(X, pompeje), urodzil(X, Z), Z>=80); (\+obywatel(X, pompeje))).
+zyje(X, Y) :- Y>=80, ((obywatel(X, pompeje), urodzil(X, Z), Z>=80); (\+obywatel(X, pompeje))).
 
 %zyje(markus, 80) == false
 
 %sposob II
-zyje(X, Y) :- urodzil(X, Z), Z > Y-150.
+
+zyje(X, Y) :- urodzil(X, Z), Z > Y-150, Y >= Z.
 
 %zyje(markus, 2021) == false
 
