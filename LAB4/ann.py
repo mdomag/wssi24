@@ -1,5 +1,6 @@
 import numpy as np
 import networkx as nx
+import matplotlib.pyplot as plt
 
 class Neuron:  
     def __init__(self, n_inputs, bias=0., weights=None):  
@@ -71,3 +72,4 @@ ann = NeuralNetwork([input_layer, hidden_layer1, hidden_layer2, output_layer])
 # print(result)
 
 ann.visualize()
+plt.show()
