@@ -71,5 +71,6 @@ ann = NeuralNetwork([input_layer, hidden_layer1, hidden_layer2, output_layer])
 # result = ann(np.array([0.5, 0.1, 0.3]))
 # print(result)
 
+
 ann.visualize()
 plt.show()
