@@ -31,7 +31,7 @@ class NeuralNetwork:
         return xs
 
     def generate_pos(self, n_nodes, j, last_max):
-        return {i+last_max: (i, j) for i in range(n_nodes)}
+        return {i+last_max: (j, i) for i in range(n_nodes)}
     
     def generate_edges(self, cur_layer, prev_layer, G):
       for i in cur_layer:
