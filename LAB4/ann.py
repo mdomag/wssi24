@@ -1,4 +1,4 @@
-
+import numpy as np
 import numpy as np
 
 class Neuron:  
@@ -24,9 +24,22 @@ class Layer:
 class NeuralNetwork:
     def __init__(self, layers):
         self.layers = layers
-    def __call__(self, xs):
-        return [layer(xs) for layer in self.layers]
 
+    def __call__(self, xs):
+        for layer in self.layers:
+            xs = layer(xs)
+        return xs
+      
+
+input_layer = Layer(3, 3)
+hidden_layer1 = Layer(4, 3)
+hidden_layer2 = Layer(4, 4)
+output_layer = Layer(1, 4)
+
+ann = NeuralNetwork([input_layer, hidden_layer1, hidden_layer2, output_layer])
+
+result = ann(np.array([0.5, 0.1, 0.3]))
+print(result)
 
 
 
